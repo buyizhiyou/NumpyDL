@@ -244,6 +244,6 @@ class Dropout(Layer):
 
     def backward(self, pre_grad, *args, **kwargs):
         if 0. < self.p < 1.:
-            return pre_grad * self.last_mask
+            return pre_grad * self.last_mask　　#dropout层的反向传播
         else:
             return pre_grad
