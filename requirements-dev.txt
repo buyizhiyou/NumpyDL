@@ -1,0 +1,17 @@
+-r requirements-doc.txt
+
+# test requirements
+pep8
+coverage
+pytest
+pytest-cov
+pytest-pep8
+python-coveralls
+requests
+six
+mock
+
+
+# application requirements
+flask
+
